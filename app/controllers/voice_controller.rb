@@ -4,7 +4,6 @@ class VoiceController < ApplicationController
 
   layout false
   
-  skip_authorization_check 
   skip_before_action :verify_authenticity_token
 
   def voice

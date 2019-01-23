@@ -12,8 +12,6 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
-gem 'redis-rails', '~>5.0.2'
-
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
 
@@ -23,11 +21,6 @@ gem 'jbuilder', '~> 2.7'
 # Use unicorn as the app server
 # gem 'unicorn'
 
-# Use Capistrano for deployment
-group :development do
-
-end
-
 gem 'puma'
 
 # Use debugger
@@ -35,13 +28,11 @@ gem 'puma'
 group :development, :test do
   gem 'rspec-rails', '~> 3.8'
   gem 'factory_girl_rails'
-  gem 'capybara'
   gem 'database_cleaner'
 end
 
 gem 'haml-rails'
 gem 'devise'
-gem 'cancancan'
 
 gem 'sqlite3'
 

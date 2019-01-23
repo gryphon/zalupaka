@@ -24,8 +24,8 @@ module Zalupaka
 
     config.action_mailer.delivery_method = :smtp
 
-    config.yandex_folder = File.read("/run/secrets/yandex_folder")
-    config.yandex_oauth_token = File.read("/run/secrets/yandex_oauth_token")
+    config.yandex_folder = File.read("/run/secrets/yandex_folder") rescue ""
+    config.yandex_oauth_token = File.read("/run/secrets/yandex_oauth_token") rescue ""
 
   end
 end

@@ -11,4 +11,5 @@
 // about supported directives.
 //
 //= require jquery
+//= require opus-recorder/dist/recorder.min
 //= require voice

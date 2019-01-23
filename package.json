@@ -7,7 +7,8 @@
     "test": "test"
   },
   "dependencies": {
-    "jsqrcode": "latest"
+    "jquery": "3.3.1",
+    "opus-recorder":"6.1.0"
   },
   "devDependencies": {},
   "scripts": {

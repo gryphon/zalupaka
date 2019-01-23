@@ -6,11 +6,6 @@ networks:
 
 services:
 
-  redis:
-    image: redis
-    networks:
-      - proxy
-
   zalupaka:
     image: zalupaka:latest
     command: /bin/sh -c "rm -f tmp/pids/server.pid && rake db:migrate && rails s -p 3000 -b '0.0.0.0'"

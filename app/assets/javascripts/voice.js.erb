@@ -4,7 +4,7 @@ $( document ).ready(function() {
   var t = null;
 
   var config = {
-    encoderPath: "/encoderWorker.min.js"
+    encoderPath: '<%= asset_path("opus-recorder/dist/encoderWorker.min.js") %>'
   }
 
   var rec = new Recorder(config);
