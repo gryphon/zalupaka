@@ -1,0 +1,15 @@
+---
+- name: 'apply common configuration to all nodes'
+  hosts: 'all'
+  remote_user: 'root'
+  roles:
+#    - gryphon.rails/common
+#    - gryphon.rails/db
+#    - gryphon.rails/rails
+    - ansible-rails/common
+    - thefinn93.letsencrypt
+    - ansible-rails/db
+    - ansible-rails/rails
+    - misc
+
+# ansible-playbook playbook.yml -i hosts

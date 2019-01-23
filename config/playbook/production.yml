@@ -1,0 +1,9 @@
+---
+- name: 'apply common configuration to all nodes'
+  hosts: 'production'
+  remote_user: 'root'
+  roles:
+    - ansible-rails/common
+    - geerlingguy.docker
+
+# ansible-playbook production.yml -i hosts --skip-tags "backup"

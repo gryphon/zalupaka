@@ -1,0 +1,16 @@
+- content_for :title do
+  = t("users.users")
+
+.page-header
+  %h1
+    .pull-right
+      - if can? :create, User
+        = new_button new_user_invitation_path, t("users.invite")
+        = new_button new_user_path
+    %i.fa.fa-user
+    = t("users.users")
+
+= render partial: "search_fields/filter", locals: { search_model: User }
+
+= render partial: "search_fields/table", locals: { collection: @users }
+

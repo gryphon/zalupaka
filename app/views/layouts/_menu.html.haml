@@ -1,0 +1,60 @@
+%nav#navbar-login.navbar-inverse.navbar.navbar-default.navbar-fixed-top
+  .container
+
+    .navbar-right
+
+      %p.navbar-text.f16
+        - if locale == :ru
+          %a.navbar-link.flag.ru{href: "?locale=en"} &nbsp;
+        - else
+          %a.navbar-link.flag.us{href: "?locale=ru"} &nbsp;
+
+      - if user_signed_in?
+        %p.navbar-text
+          - if current_user.role_cd <= 10
+            %i.fa.fa-user
+          - else
+            %i.fa.fa-warning.danger{data: {toggle: "tooltip", placement: "bottom"}, title: t("users.superadmin_warning")}
+          = link_to current_user, :class => "navbar-link" do
+            = current_user.name
+          - if current_user.company_id?
+            = "/"
+            %i{class: company_icon(current_user.company)}
+            = current_user.company.logo
+
+        = link_to destroy_user_session_path, :method => :delete, :class => "btn btn-default btn-xs navbar-btn" do
+          %i.fa.fa-sign-out
+          = t("sign_out")
+
+      - else
+        %button.btn.btn-default.navbar-btn.btn-xs.navbar-right{:href => "#login", "data-target"=>"#login", "data-toggle"=>"modal", :type=>"button"}= t("sign_in")
+
+
+%nav#navbar-main.navbar.navbar-default.navbar-fixed-top
+  .container
+    .navbar-header
+
+      - cm = Date.today.month
+      - cd = Date.today.day
+      - christmas = (cm==12 && cd>=20) || (cm==1 && cd<=10)
+
+      %a.navbar-brand{href: root_path, class: [(current_account.logo_image? ? "with-logo" : "")]}
+        - if current_account.logo_image?
+          %img{src: image_path(current_account.logo_image)}
+        - else
+          %i.fa.fa-truck
+          %span.hidden-sm= current_account.name || t("title")
+
+      %button.navbar-toggle(type="button" data-toggle="collapse" data-target=".navbar-main-collapse")
+        %span.sr-only Toggle navigation
+        %i.fa.fa-navicon
+        = t("menu")
+
+    .collapse.navbar-collapse.navbar-main-collapse
+      - if christmas
+        %img.christmas{src: image_url("christmas.png")}
+      != raw render_navigation(expand_all: true, renderer: :bootstrap3 )
+
+- if ! user_signed_in?
+  #login.modal.fade(tabindex="-1" role="dialog" aria-labelledby="loginLabel" aria-hidden="true")
+    = render "devise/sessions/new_session"

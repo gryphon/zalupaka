@@ -1,0 +1,1123 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"app",
+				"appendChild"
+			],
+			[
+				"iam",
+				"iam_token"
+			],
+			[
+				"cre",
+				"create_if_not_exist"
+			],
+			[
+				"restre",
+				"restream"
+			],
+			[
+				"video",
+				"video_bitrate"
+			],
+			[
+				"bit",
+				"bitrate"
+			],
+			[
+				"webr",
+				"webrtc_port"
+			],
+			[
+				"down",
+				"downloadVpJsonDoc"
+			],
+			[
+				"place",
+				"placement_id"
+			],
+			[
+				"def",
+				"default_data"
+			],
+			[
+				"tink",
+				"tinkoff_data"
+			],
+			[
+				"permi",
+				"permitted"
+			],
+			[
+				"perm",
+				"permitted"
+			],
+			[
+				"client",
+				"client_id"
+			],
+			[
+				"dvr_",
+				"dvr_cleanup"
+			],
+			[
+				"trans",
+				"transcoding_started"
+			],
+			[
+				"conve",
+				"converted_videos"
+			],
+			[
+				"iframe",
+				"iframe_embed_code"
+			],
+			[
+				"fil",
+				"filterable"
+			],
+			[
+				"origi",
+				"origin_resource"
+			],
+			[
+				"ori",
+				"origin_size"
+			],
+			[
+				"vide",
+				"video_id"
+			],
+			[
+				"TUS_",
+				"TUS_ID"
+			],
+			[
+				"api",
+				"api_data"
+			],
+			[
+				"mul",
+				"mulca_result"
+			],
+			[
+				"__md",
+				"__md5sum"
+			],
+			[
+				"__m",
+				"__md5dir"
+			],
+			[
+				"ifr",
+				"iframe_embed_code"
+			],
+			[
+				"ifram",
+				"iframe_embed_code"
+			],
+			[
+				"fetc",
+				"fetch_transcoding_region"
+			],
+			[
+				"stream",
+				"stream_id"
+			],
+			[
+				"ffm",
+				"ffmpeg_params"
+			],
+			[
+				"stre",
+				"stream_id"
+			],
+			[
+				"broad",
+				"broadcast"
+			],
+			[
+				"qu",
+				"quality_set_id"
+			],
+			[
+				"ifra",
+				"iframe_url"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"active",
+				"active_tasks"
+			],
+			[
+				"bro",
+				"broadcast"
+			],
+			[
+				"aud",
+				"audio_channels"
+			],
+			[
+				"transc",
+				"transcoding_started_at"
+			],
+			[
+				"video_",
+				"video_height"
+			],
+			[
+				"qua",
+				"quality"
+			],
+			[
+				"au",
+				"audio_bitrate"
+			],
+			[
+				"Bro",
+				"Broadcasts"
+			],
+			[
+				"date_f",
+				"date_from_n"
+			],
+			[
+				"auth",
+				"authRights"
+			],
+			[
+				"gul",
+				"gulp_task"
+			],
+			[
+				"by",
+				"bytes"
+			],
+			[
+				"res",
+				"responsiveWidth"
+			],
+			[
+				"eplayer-skin-t",
+				"eplayer-skin-timeinfo"
+			],
+			[
+				"butt",
+				"button-height"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"subt",
+				"subtitles"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"hove",
+				"hover_color"
+			],
+			[
+				"bu",
+				"button-height"
+			],
+			[
+				"mp4",
+				"mp4_uri"
+			],
+			[
+				"play",
+				"playlist_uri"
+			],
+			[
+				"pl",
+				"playlist_uri"
+			],
+			[
+				"append",
+				"appendTo"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"appe",
+				"appendTo"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"qual",
+				"qualityDiv"
+			],
+			[
+				"vol",
+				"volume"
+			],
+			[
+				"full",
+				"fullscreenOn"
+			],
+			[
+				"customer_",
+				"customer_billing"
+			],
+			[
+				"customer_b",
+				"customer_billing_params"
+			],
+			[
+				"nav",
+				"navbar"
+			],
+			[
+				"prepa",
+				"prepay_amount"
+			],
+			[
+				"to_s",
+				"to_set_paid"
+			],
+			[
+				"customer",
+				"customer_billing"
+			],
+			[
+				"custome",
+				"customer_billing"
+			],
+			[
+				"bi",
+				"billings"
+			],
+			[
+				"bill",
+				"billings"
+			],
+			[
+				"by_",
+				"by_start_date"
+			],
+			[
+				"order",
+				"order_item_params"
+			],
+			[
+				"price_",
+				"price_value"
+			],
+			[
+				"opt",
+				"options"
+			],
+			[
+				"spare",
+				"sparepart_id"
+			],
+			[
+				"gro",
+				"group_by"
+			],
+			[
+				"quo",
+				"quotation_id"
+			],
+			[
+				"cu",
+				"current_user"
+			],
+			[
+				"descr",
+				"description"
+			],
+			[
+				"spa",
+				"sparepart"
+			],
+			[
+				"qi",
+				"quotations"
+			],
+			[
+				"quot",
+				"quotation"
+			],
+			[
+				"add",
+				"add_index"
+			],
+			[
+				"sup",
+				"supplier"
+			],
+			[
+				"man",
+				"manufacturer"
+			],
+			[
+				"manu",
+				"manufacturer_id"
+			],
+			[
+				"Ma",
+				"ManufacturerAlias"
+			],
+			[
+				"qt",
+				"qty_invoice"
+			],
+			[
+				"order_",
+				"order_item"
+			],
+			[
+				"statu",
+				"status_resolution"
+			],
+			[
+				"val",
+				"validateItems"
+			],
+			[
+				"req",
+				"requested_qty"
+			],
+			[
+				"inv",
+				"invoice_items"
+			],
+			[
+				"pric",
+				"price_invoice"
+			],
+			[
+				"qty",
+				"qty_decrease"
+			],
+			[
+				"qty_",
+				"qty_invoice"
+			],
+			[
+				"su",
+				"supplier"
+			],
+			[
+				"suppli",
+				"supplier_id"
+			],
+			[
+				"in",
+				"invoice"
+			],
+			[
+				"all",
+				"all_items"
+			],
+			[
+				"compo",
+				"composed_items"
+			],
+			[
+				"desc",
+				"description_en"
+			],
+			[
+				"price",
+				"pricelist"
+			],
+			[
+				"re",
+				"required_columns"
+			],
+			[
+				"co",
+				"company"
+			],
+			[
+				"non",
+				"nonexisting"
+			],
+			[
+				"company",
+				"company_id"
+			],
+			[
+				"prices",
+				"prices_to_save"
+			],
+			[
+				"error",
+				"error_row"
+			],
+			[
+				"add_",
+				"add_column"
+			],
+			[
+				"pri",
+				"pricelists"
+			],
+			[
+				"valid",
+				"valid_attributes"
+			],
+			[
+				"or",
+				"order_item"
+			],
+			[
+				"spar",
+				"spareparts"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"cart",
+				"cart_item"
+			],
+			[
+				"start_",
+				"start_row"
+			],
+			[
+				"empty",
+				"empty_row"
+			],
+			[
+				"relo",
+				"reload_manufacturers"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/models/voice.rb",
+			"settings":
+			{
+				"buffer_size": 1041,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/voice_controller.rb",
+			"settings":
+			{
+				"buffer_size": 1080,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/javascripts/voice.js",
+			"settings":
+			{
+				"buffer_size": 1927,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/processor.rb",
+			"settings":
+			{
+				"buffer_size": 569,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/processors/hello_processor.rb",
+			"settings":
+			{
+				"buffer_size": 349,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/processors/one_processor.rb",
+			"settings":
+			{
+				"buffer_size": 288,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 107.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"i18",
+				"I18n Rails: Add key"
+			],
+			[
+				"i18n",
+				"I18n Rails: Add key"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Contro",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 373.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/gryphon/Projects/zalupaka",
+		"/Users/gryphon/Projects/zalupaka/app",
+		"/Users/gryphon/Projects/zalupaka/app/models",
+		"/Users/gryphon/Projects/zalupaka/app/models/processors",
+		"/Users/gryphon/Projects/zalupaka/config"
+	],
+	"file_history":
+	[
+		"/Users/gryphon/Projects/zalupaka/app/models/processors/processor.rb",
+		"/Users/gryphon/Projects/zalupaka/app/models/processors/weather_processor.rb",
+		"/Users/gryphon/Projects/zalupaka/app/models/processors/one_processor.rb",
+		"/Users/gryphon/Projects/zalupaka/app/models/processors/hue_processor.rb",
+		"/Users/gryphon/Projects/zalupaka/app/models/processors/empty_processor.rb",
+		"/Users/gryphon/Projects/zalupaka/app/models/processors/ass_processor.rb",
+		"/Users/gryphon/Projects/zalupaka/app/models/processor.rb",
+		"/Users/gryphon/Projects/zalupaka/Gemfile",
+		"/Users/gryphon/Projects/zalupaka/app/controllers/voice_controller.rb",
+		"/Users/gryphon/Projects/zalupaka/Dockerfile",
+		"/Users/gryphon/Projects/zalupaka/docker-compose.yml",
+		"/Users/gryphon/Projects/zalupaka/app/models/voice.rb",
+		"/Users/gryphon/Projects/zalupaka/config/environments/development.rb",
+		"/Users/gryphon/Projects/zalupaka/app/views/voice/voice.html.haml",
+		"/Users/gryphon/Projects/zalupaka/app/models/user.rb",
+		"/Users/gryphon/Projects/zalupaka/bin/rails",
+		"/Users/gryphon/Projects/zalupaka/app/controllers/application_controller.rb",
+		"/Users/gryphon/Projects/zalupaka/bin/run.sh",
+		"/Users/gryphon/Projects/zalupaka/config/application.rb",
+		"/Users/gryphon/Projects/zalupaka/config/database.yml",
+		"/Users/gryphon/Projects/zalupaka/db/migrate/20131118104346_devise_create_users.rb",
+		"/Users/gryphon/Projects/zalupaka/app/assets/javascripts/voice.js",
+		"/Users/gryphon/Projects/zalupaka/app/assets/javascripts/application.js",
+		"/Users/gryphon/Projects/zalupaka/app/assets/stylesheets/application.css.scss",
+		"/Users/gryphon/Projects/zalupaka/docker-compose-dev.yml",
+		"/Users/gryphon/Projects/zalupaka/config/initializers/secret_token.rb",
+		"/Users/gryphon/Projects/zalupaka/config/initializers/redis.rb",
+		"/Users/gryphon/Projects/zalupaka/config/environments/production.rb",
+		"/Users/gryphon/Projects/zalupaka/config/environments/test.rb",
+		"/Users/gryphon/Projects/zalupaka/config/locales/en.yml",
+		"/Users/gryphon/Projects/zalupaka/config/locales/ru.yml",
+		"/Users/gryphon/Projects/zalupaka/config/playbook/group_vars/all",
+		"/Users/gryphon/Projects/zalupaka/config/playbook/roles/misc/tasks/cron.yml",
+		"/Users/gryphon/Projects/zalupaka/config/playbook/hosts",
+		"/Users/gryphon/Projects/zalupaka/config/routes.rb",
+		"/Users/gryphon/Projects/zalupaka/Rakefile",
+		"/Users/gryphon/Projects/zalupaka/config/environment.rb",
+		"/Users/gryphon/Projects/zalupaka/bin/deploy_production.sh",
+		"/Users/gryphon/Projects/zalupaka/db/seeds.rb",
+		"/Users/gryphon/Projects/zalupaka/package.json",
+		"/Users/gryphon/Projects/zalupaka/docker-sync.yml",
+		"/Users/gryphon/Projects/zalupaka/app/views/layouts/_head.html.haml",
+		"/Users/gryphon/Projects/zalupaka/bin/build.sh",
+		"/Users/gryphon/.Trash/20131118104346_devise_create_users.rb",
+		"/Users/gryphon/gcore/api-docs/readme.md",
+		"/Users/gryphon/gcore/api-docs/gulpfile.js",
+		"/Users/gryphon/gcore/broadcaster/doc/apidoc/schema_swagger_form_data.json",
+		"/Users/gryphon/gcore/broadcaster/app/controllers/api/streams_controller.rb",
+		"/Users/gryphon/gcore/broadcaster/app/controllers/api/videos_controller.rb",
+		"/Users/gryphon/gcore/broadcaster/app/controllers/api/restreams_controller.rb",
+		"/Users/gryphon/gcore/broadcaster/app/controllers/api/players_controller.rb",
+		"/Users/gryphon/gcore/broadcaster/app/controllers/api/playlists_controller.rb",
+		"/Users/gryphon/gcore/broadcaster/app/controllers/api/ads_controller.rb",
+		"/Users/gryphon/gcore/broadcaster/app/controllers/api/broadcasts_controller.rb",
+		"/Users/gryphon/gcore/broadcaster/config/initializers/apipie.rb",
+		"/Users/gryphon/gcore/broadcaster/app/models/quality.rb",
+		"/Users/gryphon/gcore/broadcaster/app/models/quality_set.rb",
+		"/Users/gryphon/gcore/broadcaster/app/models/cdn.rb",
+		"/Users/gryphon/gcore/broadcaster/app/models/stream.rb",
+		"/Users/gryphon/gcore/broadcaster/app/controllers/dashboard_controller.rb",
+		"/Users/gryphon/gcore/broadcaster/app/models/client.rb",
+		"/Users/gryphon/gcore/broadcaster/config/routes.rb",
+		"/Users/gryphon/gcore/broadcaster/app/views/playlists/playlist.m3u8.erb",
+		"/Users/gryphon/gcore/broadcaster/app/controllers/playlists_controller.rb",
+		"/Users/gryphon/gcore/broadcaster/app/models/playlist.rb",
+		"/Users/gryphon/gcore/broadcaster/app/views/api/playlists/kaltura.jbuilder",
+		"/Users/gryphon/gcore/broadcaster/app/models/video.rb",
+		"/Users/gryphon/gcore/broadcaster/app/models/broadcast.rb",
+		"/Users/gryphon/gcore/broadcaster/gcore.local.yml",
+		"/Users/gryphon/gcore/kaltura-nginx/nginx.conf",
+		"/Users/gryphon/gcore/broadcaster/app/controllers/api/api_controller.rb",
+		"/Users/gryphon/gcore/broadcaster/app/models/concerns/clientable.rb",
+		"/Users/gryphon/gcore/broadcaster/app/views/rails_admin/main/active_tasks.html.haml",
+		"/Users/gryphon/gcore/broadcaster/db/migrate/20181214133301_add_name_to_restreams.rb",
+		"/Users/gryphon/gcore/broadcaster/app/views/api/restreams/_restream.jbuilder",
+		"/Users/gryphon/gcore/broadcaster/config/initializers/rails_admin.rb",
+		"/Users/gryphon/gcore/broadcaster/app/models/restream.rb",
+		"/Users/gryphon/gcore/broadcaster/spec/factories/quality_sets.rb",
+		"/Users/gryphon/gcore/broadcaster/db/migrate/20181213103217_add_webrtc_port.rb",
+		"/Users/gryphon/gcore/broadcaster/app/models/server.rb",
+		"/Users/gryphon/gcore/broadcaster/config/locales/en.yml",
+		"/Users/gryphon/gcore/broadcaster/db/schema.rb",
+		"/Users/gryphon/gcore/broadcaster/db/migrate/20181211121706_add_qs_to_streams.rb",
+		"/Users/gryphon/gcore/broadcaster/app/views/broadcasts/show.haml",
+		"/Users/gryphon/gcore/broadcaster/app/views/api/videos/_video.jbuilder",
+		"/Users/gryphon/gcore/broadcaster/db/migrate/20181128102415_add_custom_iframe_url.rb",
+		"/Users/gryphon/gcore/broadcaster/app/views/api/broadcasts/_broadcast.jbuilder",
+		"/Users/gryphon/gcore/broadcaster/app/models/concerns/playable.rb",
+		"/Users/gryphon/gcore/broadcaster/app/views/players/_clappr.haml",
+		"/Users/gryphon/gcore/broadcaster/app/views/api/players/_player.jbuilder",
+		"/Users/gryphon/gcore/broadcaster/db/migrate/20181128093211_add_speeds_to_player.rb",
+		"/Users/gryphon/gcore/broadcaster/app/models/concerns/streamable.rb",
+		"/Users/gryphon/gcore/broadcaster/app/views/streams/playlist.m3u8.erb",
+		"/Users/gryphon/gcore/broadcaster/.dockerignore",
+		"/Users/gryphon/gcore/broadcaster/db/migrate/20181109111430_add_webrtc_out_server_to_streams.rb",
+		"/Users/gryphon/gcore/broadcaster/gcore.local.apionly.yml",
+		"/Users/gryphon/gcore/kaltura-nginx/bin/build.stag.sh",
+		"/Users/gryphon/gcore/kaltura-nginx/Dockerfile",
+		"/Users/gryphon/gcore/broadcaster/Gemfile",
+		"/Users/gryphon/gcore/api-docs/src/handlebars/helpers.js",
+		"/Users/gryphon/gcore/broadcaster/spec/swagger_helper.rb",
+		"/Users/gryphon/gcore/broadcaster/spec/integration/api/videos_spec.rb",
+		"/Users/gryphon/gcore/broadcaster/config/initializers/rswag-api.rb",
+		"/Users/gryphon/gcore/broadcaster/spec/integration/videos_spec.rb",
+		"/Users/gryphon/gcore/broadcaster/app/controllers/api/cdns_controller.rb",
+		"/Users/gryphon/gcore/broadcaster/bin/build.dev.sh",
+		"/Users/gryphon/gcore/api-docs/package.json",
+		"/Users/gryphon/gcore/api-docs/public/index.html",
+		"/Users/gryphon/gcore/broadcaster/spec/models/video_spec.rb",
+		"/Users/gryphon/gcore/api-docs/build/index.html",
+		"/Users/gryphon/gcore/broadcaster/config/environments/development.rb",
+		"/Users/gryphon/gcore/broadcaster/app/controllers/api/frontend_controller.rb",
+		"/Users/gryphon/gcore/broadcaster/app/controllers/api/clients_controller.rb",
+		"/Users/gryphon/gcore/broadcaster/app/views/api/clients/show.jbuilder",
+		"/Users/gryphon/gcore/broadcaster/app/models/player.rb",
+		"/Users/gryphon/gcore/broadcaster/spec/factories/restreams.rb",
+		"/Users/gryphon/gcore/broadcaster/spec/features/broadcasts_spec.rb",
+		"/Users/gryphon/gcore/broadcaster/spec/factories/qualities.rb",
+		"/Users/gryphon/gcore/broadcaster/spec/factories/broadcasts.rb",
+		"/Users/gryphon/gcore/broadcaster/spec/models/broadcast_spec.rb",
+		"/Users/gryphon/gcore/broadcaster/db/migrate/20181010134111_add_player_id_to_videos.rb",
+		"/Users/gryphon/gcore/broadcaster/app/models/ad.rb",
+		"/Users/gryphon/gcore/broadcaster/db/migrate/20181010112001_add_ad_id_to_streams.rb",
+		"/Users/gryphon/gcore/broadcaster/bin/deploy.dev.sh",
+		"/Users/gryphon/gcore/broadcaster/app/helpers/clappr_helper.rb",
+		"/Users/gryphon/gcore/broadcaster/db/migrate/20181005132119_add_loop_iz_tysyachi_zalup.rb",
+		"/Users/gryphon/gcore/broadcaster/spec/requests/api/ads_spec.rb",
+		"/Users/gryphon/gcore/broadcaster/app/views/api/ads/_ad.jbuilder"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"/Users/gryphon/Projects/zalupaka"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"text",
+			"TOKE",
+			"IAM",
+			"IAM_",
+			"user_si",
+			"web",
+			"sql",
+			"mysql",
+			"raise",
+			"last",
+			"last_comment",
+			"gruzovik"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"zalupaka"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/models/voice.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1041,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/controllers/voice_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1080,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1062,
+								1062
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 258.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/assets/javascripts/voice.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1927,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1786,
+								1786
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 579.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/models/processor.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 569,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								471,
+								471
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/models/processors/hello_processor.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 349,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								344,
+								344
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/models/processors/one_processor.rb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 28.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "zalupaka.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"eagle/",
+				"eaglefront/source/app/eagle.coffee"
+			],
+			[
+				"eagle",
+				"media/config/eagle.yml"
+			],
+			[
+				"bower",
+				"eaglefront/bower.json"
+			],
+			[
+				"bower/",
+				"eaglefront/bower_components/d3/README.md"
+			],
+			[
+				"gulp",
+				"eaglefront/gulpfile.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Rails/autobot/project.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 321.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

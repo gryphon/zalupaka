@@ -1,0 +1,27 @@
+!!! 5
+%html(lang="en")
+  %head
+    = render :partial => "layouts/head"
+    = javascript_include_tag "qrcode/qrcode"
+  %body
+    #wrap
+
+      %nav.navbar.navbar-default.navbar-fixed-top
+        .container
+          .navbar-header
+
+            %a.navbar-brand{href: root_path}
+              %i.fa.fa-truck
+              %span.hidden-sm= current_account.name || t("title")
+
+      .content
+        - if !flash[:notice].blank?
+          .alert.alert-info
+            .container
+              = flash[:notice]
+        - if !flash[:alert].blank?
+          .alert.alert-danger
+            .container
+              = flash[:alert]
+        .container
+          = yield

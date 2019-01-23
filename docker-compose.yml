@@ -1,0 +1,31 @@
+version: '3.2'
+
+networks:
+  proxy:
+    external: false
+
+services:
+
+  redis:
+    image: redis
+    networks:
+      - proxy
+
+  zalupaka:
+    image: zalupaka:latest
+    command: /bin/sh -c "rm -f tmp/pids/server.pid && rake db:migrate && rails s -p 3000 -b '0.0.0.0'"
+    ports:
+      - target: 3000
+        published: 3000
+        protocol: tcp
+        mode: host
+    networks:
+      - proxy
+    volumes:
+      - ./app:/zalupaka/app
+      - ./config:/zalupaka/config
+      - ./db:/zalupaka/db
+      - ../credentials:/run/secrets
+    environment:
+      RAILS_ENV: development
+

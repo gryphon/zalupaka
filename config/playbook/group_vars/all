@@ -1,0 +1,31 @@
+---
+
+ssh_users:
+  - name: gryphon
+    key: "{{ lookup('file', '/Users/gryphon/.ssh/id_rsa.pub') }}"
+
+user: 'web'
+home: '/home/{{ user }}'
+name: 'zalupaka'
+application: '{{ home }}'
+ruby_version: '2.2.3'
+rbenv_root: '{{ home }}/.rbenv'
+nodejs_branch: "node_4.x"
+nodejs_apt_state: "latest"
+
+max_body_size: '100m'
+
+db_name: '{{ name }}'
+db_user: '{{ name }}'
+db_password: '12345'
+
+letsencrypt_webroot_path: "/home/{{ user }}/current/public"
+letsencrypt_email: mail@grigor.io
+letsencrypt_cert_domains:
+  - track.adqcargo.com
+  - cargo.adqcargo.com
+  - cargo.snsk.ru
+  - track.aldaqiqparts.com
+letsencrypt_renewal_command_args: '--renew-hook "systemctl restart nginx"'
+
+docker_apt_release_channel: edge

@@ -1,0 +1,5 @@
+[web]
+37.139.27.15
+
+[production]
+zalupaka ansible_python_interpreter=/usr/bin/python3

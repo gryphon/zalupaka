@@ -1,0 +1,21 @@
+.panel.panel-default
+  .panel-heading
+    = t("users.users")
+  .panel-body
+
+    %table.table.table-condensed
+      %thead
+        %tr
+          %th= User.human_attribute_name :email
+          %th= User.human_attribute_name :role
+      %tbody
+        - company.users.each do |user|
+          %tr
+            %td= render partial: "users/user", locals: {user: user, :mini => true}
+            %td= user.human_role
+
+        - if company.users.length == 0
+          %tr
+            %td(colspan="100%")= t("companies.no_users")
+    - if can? :create, User
+      = link_to t("users.new"), new_user_invitation_path({user:{company_id: company.id}}), :class => "btn btn-block btn-default"

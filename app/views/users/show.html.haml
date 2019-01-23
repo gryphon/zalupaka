@@ -1,0 +1,53 @@
+- content_for :title do
+  = @user.name
+
+.page-header
+  %h1
+    .pull-right
+      - if can? :password, @user
+        = edit_head_button edit_user_registration_path, t("users.change_password")
+      - if can? :update, @user
+        = edit_head_button [:edit, @user]
+      - if can? :destroy, @user
+        = delete_head_button @user
+    %i.fa.fa-user
+    = @user.email
+
+%dl.dl-horizontal
+
+  %dt
+    = User.human_attribute_name :company
+  %dd
+    = render @user.company
+
+  %dt
+    = User.human_attribute_name :role
+  %dd
+    = @user.human_role
+
+
+  %dt
+    = User.human_attribute_name :language
+  %dd
+    - if @user.language?
+      = t(@user.language)
+    - else
+      = t("auto")
+
+  %dt
+    = User.human_attribute_name :username
+  %dd
+    - if @user.username?
+      = @user.username
+    - else
+      = t("not_set")
+
+- if can? :switch, User
+  %p
+    = link_to t("users.switch_user"), "/switch_user?scope_identifier=user_#{@user.id}", :class => "btn btn-default"
+
+- if @user.blocked
+  %p
+    %b= User.human_attribute_name :blocked
+
+

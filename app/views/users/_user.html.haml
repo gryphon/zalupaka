@@ -1,0 +1,5 @@
+%a.nowrap{:href => user_path(user)}
+  %i.fa.fa-user
+  = user.name
+- if user.company_id? && !defined?(mini)
+  = render(user.company)

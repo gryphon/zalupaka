@@ -1,0 +1,17 @@
+= horizontal_form_for(@user) do |f|
+  = f.input :email
+  %hr
+  = f.association :company, collection: company_collection(Company.accessible_by(current_ability)), input_html: {data: {"toggle" => "autocomplete", "live-search" => true}}
+
+  - if can? :role, User
+    = f.input :role, :collection => enum_option_pairs(User, :roles).delete_if {|x| [:superadmin, :sysadmin].include?(x[1]) }
+
+  = f.input :username
+  
+  %hr
+
+  - if @user.new_record?
+    = f.input :password
+    = f.input :password_confirmation
+  = f.input :blocked, as: :boolean
+  = f.button :wrapped, :submit, :value => t("save")
