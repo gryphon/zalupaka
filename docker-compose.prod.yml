@@ -7,7 +7,7 @@ networks:
 services:
 
   zalupaka:
-    image: trashtravel/zalupaka:version-1.0.0
+    image: trashtravel/zalupaka:version-1.0.1
     command: /bin/sh -c "rm -f tmp/pids/server.pid && rake db:migrate && rails s -p 3000 -b '0.0.0.0'"
     ports:
       - target: 3000
