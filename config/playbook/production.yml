@@ -4,7 +4,6 @@
   remote_user: 'root'
   roles:
     - ansible-rails/common
-    - ansible-rails/db
     - ansible-rails/traefik
     - geerlingguy.docker
   vars:

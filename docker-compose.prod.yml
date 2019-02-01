@@ -1,0 +1,23 @@
+version: '3.2'
+
+networks:
+  proxy:
+    external: false
+
+services:
+
+  zalupaka:
+    image: trashtravel/zalupaka:latest
+    command: /bin/sh -c "rm -f tmp/pids/server.pid && rake db:migrate && rails s -p 3000 -b '0.0.0.0'"
+    ports:
+      - target: 3000
+        published: 80
+        protocol: tcp
+        mode: host
+    networks:
+      - proxy
+    volumes:
+      - /home/gryphon/db:/zalupaka/db
+      - /home/gryphon/credentials:/run/secrets
+    environment:
+      RAILS_ENV: production

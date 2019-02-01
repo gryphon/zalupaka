@@ -2,6 +2,7 @@
 $( document ).ready(function() {
 
   var t = null;
+  var started = false;
 
   var config = {
     encoderPath: '<%= asset_path("opus-recorder/dist/encoderWorker.min.js") %>'
@@ -15,12 +16,30 @@ $( document ).ready(function() {
     });
   }
 
+  var redrawButtons = function(){
+    if (started) {
+      $("#start").hide();
+      $("#stop").show();
+      $("#hint").show();
+    } else {
+      $("#start").show();
+      $("#stop").hide();
+      $("#hint").hide();
+    }
+  }
+
+  redrawButtons();
+
   $("#start").on("click", function(){ 
     startRecord();
+    started = true;
+    redrawButtons()
   });
 
   $("#stop").on("click", function(){ 
     rec.stop();
+    started = false;
+    redrawButtons();
     clearTimeout(t);
   });
 
@@ -33,6 +52,8 @@ $( document ).ready(function() {
     }, 5000);
 
   }
+
+
 
   rec.ondataavailable = function( typedArray ){
 
