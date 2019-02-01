@@ -2,8 +2,7 @@ class VoiceController < ApplicationController
 
   FOLDER = "b1gp1ppp4c3ptccck86u"
 
-  layout false
-  
+
   skip_before_action :verify_authenticity_token
 
   def voice

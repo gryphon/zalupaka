@@ -3,9 +3,5 @@
 %link(rel="icon" href="/favicon.ico")
 %title= content_for?(:title) ? yield(:title)+' - Zalupaka' : "Zalupaka"
 = yield(:head)
-= csrf_meta_tags
-/[if lt IE 9]
-  = javascript_include_tag "//html5shim.googlecode.com/svn/trunk/html5.js"
 = stylesheet_link_tag "application", :media => "all"
 = javascript_include_tag "application"
-= javascript_include_tag "//www.google.com/jsapi", "chartkick"

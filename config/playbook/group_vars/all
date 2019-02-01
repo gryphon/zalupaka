@@ -1,0 +1,19 @@
+---
+
+ssh_users:
+  - name: gryphon
+    key: "{{ lookup('file', '/Users/gryphon/.ssh/id_rsa.pub') }}"
+
+docker_apt_release_channel: edge
+
+innodb_buffer_pool_size: "2G"
+innodb_log_file_size: "256M"
+innodb_buffer_pool_instances: 2
+
+table_open_cache: 64
+table_open_cache_instances: 8
+
+apps_config_dir: "/home/gryphon"
+
+ssl_cert_path: "../ssl/server.crt"
+ssl_key_path: "../ssl/server.key"

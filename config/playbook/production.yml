@@ -1,0 +1,27 @@
+---
+- name: 'apply common configuration to all nodes'
+  hosts: 'production'
+  remote_user: 'root'
+  roles:
+    - ansible-rails/common
+    - ansible-rails/db
+    - ansible-rails/traefik
+    - geerlingguy.docker
+  vars:
+    traefik_domain: "zahar.pw"
+  tasks:
+    - name: Copy docker configuration
+      template:
+        src: ../../docker-compose.prod.yml
+        dest: /home/gryphon/docker-compose.prod.yml
+      tags: deploy
+    - name: Pull newer docker images
+      command: docker-compose -f /home/gryphon/docker-compose.prod.yml pull
+      become: yes
+      tags: deploy
+    - name: Reload docker configuration
+      command: docker-compose -f /home/gryphon/docker-compose.prod.yml up -d
+      become: yes
+      tags: deploy
+
+# ansible-playbook production.yml -i hosts

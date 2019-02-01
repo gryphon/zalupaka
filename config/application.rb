@@ -22,6 +22,8 @@ module Zalupaka
     config.i18n.default_locale = :ru
     config.i18n.enforce_available_locales = true
 
+    config.assets.initialize_on_precompile = false
+
     config.action_mailer.delivery_method = :smtp
 
     config.yandex_folder = File.read("/run/secrets/yandex_folder") rescue ""

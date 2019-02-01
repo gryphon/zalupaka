@@ -1,0 +1,37 @@
+#landing {
+  background-image: image-url("back.jpg");
+  background-position: top;
+  background-repeat-y: no-repeat;
+  background-repeat-x: no-repeat;
+  height: 500px;
+  background-size: cover;  
+
+  #slogan {
+    background: white;
+    padding: 5px;
+    display: inline-block;
+  }
+
+}
+
+
+#controls {
+  background-image: 
+    linear-gradient(black, black),
+    image-url("back2.jpg");
+  background-position: top;
+  background-repeat-y: no-repeat;
+  background-repeat-x: no-repeat;
+  height: 500px;
+  background-size: cover;  
+  background-blend-mode: saturation;
+}
+
+#testimonials {
+  background-image: image-url("back3.jpg");
+  background-position: top;
+  background-repeat-y: no-repeat;
+  background-repeat-x: no-repeat;
+  height: 500px;
+  background-size: cover;  
+}

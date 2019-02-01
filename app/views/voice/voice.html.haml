@@ -1,12 +1,34 @@
-= javascript_include_tag "application"
+#landing.container-fluid.text-center
 
+  %h1
+    %img{src: image_path("logo")}
+  %p#slogan.text-center
+    Самый четкий голосовой помощник на районе
 
-/%audio{src: "/voice/generate", controls: true}
+#controls.container-fluid
 
-%button#start START
-%button#stop STOP
+  %br
+  %br
 
-%audio#response{controls: true}
-  %source#source{src: ""}
+  .row
+
+    .col-md-3
+    .col-md-6
+      .card
+
+        .card-body
+
+          %h3.text-center
+            Попробуй прямо сейчас!
+
+          .text-center
+
+            %button.btn.btn-lg.btn-success#start Начать!
+            %button.btn.btn-lg.btn-danger#stop Остановить
+
+          %audio#response{controls: true, style: "visibility: hidden;"}
+            %source#source{src: ""}
 
 %ul#recordingslist
+
+#marketing.container-fluid

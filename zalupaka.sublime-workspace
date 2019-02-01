@@ -519,60 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "docker-compose.yml",
-			"settings":
-			{
-				"buffer_size": 573,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/application.rb",
-			"settings":
-			{
-				"buffer_size": 1229,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/voice_controller.rb",
-			"settings":
-			{
-				"buffer_size": 1182,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/user.rb",
-			"settings":
-			{
-				"buffer_size": 672,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/processors/time_processor.rb",
-			"settings":
-			{
-				"buffer_size": 439,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/processors/ass_processor.rb",
-			"settings":
-			{
-				"buffer_size": 476,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -642,39 +588,41 @@
 	[
 		"/Users/gryphon/Projects/zalupaka",
 		"/Users/gryphon/Projects/zalupaka/app",
-		"/Users/gryphon/Projects/zalupaka/app/models",
-		"/Users/gryphon/Projects/zalupaka/app/models/processors",
-		"/Users/gryphon/Projects/zalupaka/config",
+		"/Users/gryphon/Projects/zalupaka/app/controllers",
 		"/Users/gryphon/Projects/credentials"
 	],
 	"file_history":
 	[
+		"/Users/gryphon/Projects/zalupaka/app/views/voice/voice.html.haml",
+		"/Users/gryphon/Projects/zalupaka/app/assets/javascripts/application.js",
+		"/Users/gryphon/Projects/zalupaka/app/assets/javascripts/voice.js.erb",
+		"/Users/gryphon/Projects/zalupaka/app/controllers/voice_controller.rb",
+		"/Users/gryphon/Projects/zalupaka/app/controllers/application_controller.rb",
+		"/Users/gryphon/Projects/zalupaka/docker-compose.yml",
+		"/Users/gryphon/Projects/zalupaka/package.json",
+		"/Users/gryphon/Projects/zalupaka/yarn.lock",
 		"/Users/gryphon/Projects/zalupaka/app/models/processors/ass_processor.rb",
+		"/Users/gryphon/Projects/zalupaka/app/models/processors/time_processor.rb",
+		"/Users/gryphon/Projects/zalupaka/app/models/user.rb",
+		"/Users/gryphon/Projects/zalupaka/config/application.rb",
+		"/Users/gryphon/Projects/zalupaka/Gemfile",
+		"/Users/gryphon/Projects/zalupaka/config/database.yml",
 		"/Users/gryphon/Projects/credentials/yandex_folder.txt",
 		"/Users/gryphon/Projects/credentials/yandex_oauth_token.txt",
 		"/Users/gryphon/Projects/zalupaka/app/models/processors/hello_processor.rb",
 		"/Users/gryphon/Projects/zalupaka/app/models/processor.rb",
 		"/Users/gryphon/Projects/zalupaka/app/assets/javascripts/voice.js",
-		"/Users/gryphon/Projects/zalupaka/app/controllers/voice_controller.rb",
 		"/Users/gryphon/Projects/zalupaka/app/models/voice.rb",
 		"/Users/gryphon/Projects/zalupaka/app/models/processors/processor.rb",
 		"/Users/gryphon/Projects/zalupaka/app/models/processors/weather_processor.rb",
 		"/Users/gryphon/Projects/zalupaka/app/models/processors/one_processor.rb",
 		"/Users/gryphon/Projects/zalupaka/app/models/processors/hue_processor.rb",
 		"/Users/gryphon/Projects/zalupaka/app/models/processors/empty_processor.rb",
-		"/Users/gryphon/Projects/zalupaka/Gemfile",
 		"/Users/gryphon/Projects/zalupaka/Dockerfile",
-		"/Users/gryphon/Projects/zalupaka/docker-compose.yml",
 		"/Users/gryphon/Projects/zalupaka/config/environments/development.rb",
-		"/Users/gryphon/Projects/zalupaka/app/views/voice/voice.html.haml",
-		"/Users/gryphon/Projects/zalupaka/app/models/user.rb",
 		"/Users/gryphon/Projects/zalupaka/bin/rails",
-		"/Users/gryphon/Projects/zalupaka/app/controllers/application_controller.rb",
 		"/Users/gryphon/Projects/zalupaka/bin/run.sh",
-		"/Users/gryphon/Projects/zalupaka/config/application.rb",
-		"/Users/gryphon/Projects/zalupaka/config/database.yml",
 		"/Users/gryphon/Projects/zalupaka/db/migrate/20131118104346_devise_create_users.rb",
-		"/Users/gryphon/Projects/zalupaka/app/assets/javascripts/application.js",
 		"/Users/gryphon/Projects/zalupaka/app/assets/stylesheets/application.css.scss",
 		"/Users/gryphon/Projects/zalupaka/docker-compose-dev.yml",
 		"/Users/gryphon/Projects/zalupaka/config/initializers/secret_token.rb",
@@ -691,7 +639,6 @@
 		"/Users/gryphon/Projects/zalupaka/config/environment.rb",
 		"/Users/gryphon/Projects/zalupaka/bin/deploy_production.sh",
 		"/Users/gryphon/Projects/zalupaka/db/seeds.rb",
-		"/Users/gryphon/Projects/zalupaka/package.json",
 		"/Users/gryphon/Projects/zalupaka/docker-sync.yml",
 		"/Users/gryphon/Projects/zalupaka/app/views/layouts/_head.html.haml",
 		"/Users/gryphon/Projects/zalupaka/bin/build.sh",
@@ -773,14 +720,11 @@
 		"/Users/gryphon/gcore/broadcaster/spec/factories/broadcasts.rb",
 		"/Users/gryphon/gcore/broadcaster/spec/models/broadcast_spec.rb",
 		"/Users/gryphon/gcore/broadcaster/db/migrate/20181010134111_add_player_id_to_videos.rb",
-		"/Users/gryphon/gcore/broadcaster/app/models/ad.rb",
-		"/Users/gryphon/gcore/broadcaster/db/migrate/20181010112001_add_ad_id_to_streams.rb",
-		"/Users/gryphon/gcore/broadcaster/bin/deploy.dev.sh",
-		"/Users/gryphon/gcore/broadcaster/app/helpers/clappr_helper.rb"
+		"/Users/gryphon/gcore/broadcaster/app/models/ad.rb"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -795,6 +739,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"jq",
+			"jqu",
+			"skip_authorization_check",
+			"can",
+			"redis",
 			"fol",
 			"TOKEN",
 			"text",
@@ -827,189 +776,8 @@
 	"groups":
 	[
 		{
-			"selected": 5,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "docker-compose.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 573,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								572,
-								572
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/YAML/YAML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "config/application.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1229,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1078,
-								1078
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/controllers/voice_controller.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1182,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								964,
-								964
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 298.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/models/user.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 672,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								306,
-								306
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 133.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/models/processors/time_processor.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 439,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								190,
-								190
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/models/processors/ass_processor.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 476,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								184,
-								184
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
