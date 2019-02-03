@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"inli",
+				"inline-block\tdisplay"
+			],
+			[
 				"app",
 				"appendChild"
 			],
@@ -210,10 +214,6 @@
 			[
 				"butt",
 				"button-height"
-			],
-			[
-				"inli",
-				"inline-block"
 			],
 			[
 				"fun",
@@ -519,6 +519,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "config/playbook/ansible-rails/common/tasks/firewall.yml",
+			"settings":
+			{
+				"buffer_size": 598,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -587,24 +595,52 @@
 	"expanded_folders":
 	[
 		"/Users/gryphon/Projects/zalupaka",
-		"/Users/gryphon/Projects/zalupaka/app",
-		"/Users/gryphon/Projects/zalupaka/app/controllers",
+		"/Users/gryphon/Projects/zalupaka/config",
+		"/Users/gryphon/Projects/zalupaka/config/playbook",
+		"/Users/gryphon/Projects/zalupaka/config/playbook/ansible-rails",
+		"/Users/gryphon/Projects/zalupaka/config/playbook/ansible-rails/common",
+		"/Users/gryphon/Projects/zalupaka/config/playbook/ansible-rails/common/files",
+		"/Users/gryphon/Projects/zalupaka/config/playbook/ansible-rails/common/handlers",
+		"/Users/gryphon/Projects/zalupaka/config/playbook/ansible-rails/common/meta",
+		"/Users/gryphon/Projects/zalupaka/config/playbook/ansible-rails/common/tasks",
+		"/Users/gryphon/Projects/zalupaka/config/playbook/ansible-rails/common/templates",
+		"/Users/gryphon/Projects/zalupaka/config/playbook/ansible-rails/traefik",
+		"/Users/gryphon/Projects/zalupaka/config/playbook/ansible-rails/traefik/templates",
+		"/Users/gryphon/Projects/zalupaka/config/playbook/group_vars",
+		"/Users/gryphon/Projects/zalupaka/vendor",
 		"/Users/gryphon/Projects/credentials"
 	],
 	"file_history":
 	[
+		"/Users/gryphon/Projects/zalupaka/bin/deploy_production.sh",
+		"/Users/gryphon/Projects/zalupaka/config/playbook/group_vars/all",
+		"/Users/gryphon/Projects/zalupaka/config/playbook/ansible-rails/traefik/templates/traefik.toml",
 		"/Users/gryphon/Projects/zalupaka/app/views/voice/voice.html.haml",
-		"/Users/gryphon/Projects/zalupaka/app/assets/javascripts/application.js",
-		"/Users/gryphon/Projects/zalupaka/app/assets/javascripts/voice.js.erb",
-		"/Users/gryphon/Projects/zalupaka/app/controllers/voice_controller.rb",
-		"/Users/gryphon/Projects/zalupaka/app/controllers/application_controller.rb",
+		"/Users/gryphon/Projects/zalupaka/docker-compose.prod.yml",
 		"/Users/gryphon/Projects/zalupaka/docker-compose.yml",
+		"/Users/gryphon/Projects/zalupaka/config/traefik/traefik.toml",
+		"/Users/gryphon/Projects/zalupaka/app/assets/javascripts/voice.js.erb",
+		"/Users/gryphon/Projects/zalupaka/app/inputs/datetime_picker_input.rb",
+		"/Users/gryphon/Projects/zalupaka/app/views/layouts/_head.html.haml",
+		"/Users/gryphon/Projects/zalupaka/config/playbook/production.yml",
+		"/Users/gryphon/Projects/zalupaka/app/assets/stylesheets/application.css.scss",
+		"/Users/gryphon/Projects/zalupaka/app/assets/stylesheets/voice.css.scss",
+		"/Users/gryphon/Projects/zalupaka/app/views/layouts/application.html.haml",
+		"/Users/gryphon/Projects/zalupaka/docker-compose.prod.yml.docker-compose.yml",
 		"/Users/gryphon/Projects/zalupaka/package.json",
+		"/Users/gryphon/Projects/zalupaka/app/controllers/voice_controller.rb",
+		"/Users/gryphon/Projects/zalupaka/app/views/layouts/_footer.html.haml",
+		"/Users/gryphon/Projects/zalupaka/config/routes.rb",
+		"/Users/gryphon/Projects/zalupaka/config/environments/production.rb",
+		"/Users/gryphon/Projects/zalupaka/Dockerfile",
+		"/Users/gryphon/Projects/zalupaka/config/application.rb",
+		"/Users/gryphon/Projects/zalupaka/config/initializers/assets.rb",
+		"/Users/gryphon/Projects/zalupaka/app/assets/javascripts/application.js",
+		"/Users/gryphon/Projects/zalupaka/app/controllers/application_controller.rb",
 		"/Users/gryphon/Projects/zalupaka/yarn.lock",
 		"/Users/gryphon/Projects/zalupaka/app/models/processors/ass_processor.rb",
 		"/Users/gryphon/Projects/zalupaka/app/models/processors/time_processor.rb",
 		"/Users/gryphon/Projects/zalupaka/app/models/user.rb",
-		"/Users/gryphon/Projects/zalupaka/config/application.rb",
 		"/Users/gryphon/Projects/zalupaka/Gemfile",
 		"/Users/gryphon/Projects/zalupaka/config/database.yml",
 		"/Users/gryphon/Projects/credentials/yandex_folder.txt",
@@ -618,29 +654,22 @@
 		"/Users/gryphon/Projects/zalupaka/app/models/processors/one_processor.rb",
 		"/Users/gryphon/Projects/zalupaka/app/models/processors/hue_processor.rb",
 		"/Users/gryphon/Projects/zalupaka/app/models/processors/empty_processor.rb",
-		"/Users/gryphon/Projects/zalupaka/Dockerfile",
 		"/Users/gryphon/Projects/zalupaka/config/environments/development.rb",
 		"/Users/gryphon/Projects/zalupaka/bin/rails",
 		"/Users/gryphon/Projects/zalupaka/bin/run.sh",
 		"/Users/gryphon/Projects/zalupaka/db/migrate/20131118104346_devise_create_users.rb",
-		"/Users/gryphon/Projects/zalupaka/app/assets/stylesheets/application.css.scss",
 		"/Users/gryphon/Projects/zalupaka/docker-compose-dev.yml",
 		"/Users/gryphon/Projects/zalupaka/config/initializers/secret_token.rb",
 		"/Users/gryphon/Projects/zalupaka/config/initializers/redis.rb",
-		"/Users/gryphon/Projects/zalupaka/config/environments/production.rb",
 		"/Users/gryphon/Projects/zalupaka/config/environments/test.rb",
 		"/Users/gryphon/Projects/zalupaka/config/locales/en.yml",
 		"/Users/gryphon/Projects/zalupaka/config/locales/ru.yml",
-		"/Users/gryphon/Projects/zalupaka/config/playbook/group_vars/all",
 		"/Users/gryphon/Projects/zalupaka/config/playbook/roles/misc/tasks/cron.yml",
 		"/Users/gryphon/Projects/zalupaka/config/playbook/hosts",
-		"/Users/gryphon/Projects/zalupaka/config/routes.rb",
 		"/Users/gryphon/Projects/zalupaka/Rakefile",
 		"/Users/gryphon/Projects/zalupaka/config/environment.rb",
-		"/Users/gryphon/Projects/zalupaka/bin/deploy_production.sh",
 		"/Users/gryphon/Projects/zalupaka/db/seeds.rb",
 		"/Users/gryphon/Projects/zalupaka/docker-sync.yml",
-		"/Users/gryphon/Projects/zalupaka/app/views/layouts/_head.html.haml",
 		"/Users/gryphon/Projects/zalupaka/bin/build.sh",
 		"/Users/gryphon/.Trash/20131118104346_devise_create_users.rb",
 		"/Users/gryphon/gcore/api-docs/readme.md",
@@ -710,21 +739,11 @@
 		"/Users/gryphon/gcore/broadcaster/spec/models/video_spec.rb",
 		"/Users/gryphon/gcore/api-docs/build/index.html",
 		"/Users/gryphon/gcore/broadcaster/config/environments/development.rb",
-		"/Users/gryphon/gcore/broadcaster/app/controllers/api/frontend_controller.rb",
-		"/Users/gryphon/gcore/broadcaster/app/controllers/api/clients_controller.rb",
-		"/Users/gryphon/gcore/broadcaster/app/views/api/clients/show.jbuilder",
-		"/Users/gryphon/gcore/broadcaster/app/models/player.rb",
-		"/Users/gryphon/gcore/broadcaster/spec/factories/restreams.rb",
-		"/Users/gryphon/gcore/broadcaster/spec/features/broadcasts_spec.rb",
-		"/Users/gryphon/gcore/broadcaster/spec/factories/qualities.rb",
-		"/Users/gryphon/gcore/broadcaster/spec/factories/broadcasts.rb",
-		"/Users/gryphon/gcore/broadcaster/spec/models/broadcast_spec.rb",
-		"/Users/gryphon/gcore/broadcaster/db/migrate/20181010134111_add_player_id_to_videos.rb",
-		"/Users/gryphon/gcore/broadcaster/app/models/ad.rb"
+		"/Users/gryphon/gcore/broadcaster/app/controllers/api/frontend_controller.rb"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -739,6 +758,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Host:",
+			"DatePickerInput",
+			"SimpleForm",
+			"startRecord",
+			"js_",
 			"jq",
 			"jqu",
 			"skip_authorization_check",
@@ -776,8 +800,39 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "config/playbook/ansible-rails/common/tasks/firewall.yml",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 598,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

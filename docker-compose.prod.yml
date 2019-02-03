@@ -7,11 +7,11 @@ networks:
 services:
 
   zalupaka:
-    image: trashtravel/zalupaka:version-1.0.1
+    image: trashtravel/zalupaka:version-1.0.2
     command: /bin/sh -c "rm -f tmp/pids/server.pid && rake db:migrate && rails s -p 3000 -b '0.0.0.0'"
     ports:
       - target: 3000
-        published: 80
+        published: 3000
         protocol: tcp
         mode: host
     networks:
@@ -21,3 +21,22 @@ services:
       - /home/gryphon/credentials:/run/secrets
     environment:
       RAILS_ENV: production
+    labels:
+      - traefik.frontend.rule=Host:zahar.pw
+      - traefik.enable=true
+      - traefik.docker.network=proxy
+      - traefik.port=3000
+
+  traefik:
+    image: traefik:1.6.3
+    restart: always
+    command: --api --docker
+    ports:
+      - "443:443"
+      - "80:80"
+    networks:
+      - proxy
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /home/gryphon/traefik/traefik.toml:/traefik.toml
+      - /home/gryphon/acme:/acme

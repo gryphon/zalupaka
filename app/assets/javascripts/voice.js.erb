@@ -5,15 +5,21 @@ $( document ).ready(function() {
   var started = false;
 
   var config = {
-    encoderPath: '<%= asset_path("opus-recorder/dist/encoderWorker.min.js") %>'
+    encoderPath: '/encoderWorker.min.js'
   }
 
   var rec = new Recorder(config);
 
   var startRecord = function(){
-    rec.start().catch(function(e){
-      console.log('Error encountered:', e.message );
-    });
+    console.log("Starting listening...")
+    var catcher = rec.start()
+    if (catcher) {
+      console.log("Setting error catcher")
+      catcher.catch(function(e){
+        console.log('Error encountered:', e.message );
+      });
+    }
+
   }
 
   var redrawButtons = function(){
@@ -47,13 +53,15 @@ $( document ).ready(function() {
     console.log("Rec started")
 
     t = setTimeout(function(){
-      console.log("Audo record restart")
+      if (!started) {
+        clearTimeout(t);
+        return;
+      }
+      console.log("Auto record restart")
       rec.stop();
     }, 5000);
 
   }
-
-
 
   rec.ondataavailable = function( typedArray ){
 
@@ -65,14 +73,15 @@ $( document ).ready(function() {
     var audio = document.createElement('audio');
     audio.controls = true;
     audio.src = url;
-    var link = document.createElement('a');
-    link.href = url;
-    link.download = fileName;
-    link.innerHTML = link.download;
-    var li = document.createElement('li');
-    li.appendChild(link);
-    li.appendChild(audio);
-    recordingslist.appendChild(li);
+
+    //var link = document.createElement('a');
+    //link.href = url;
+    //link.download = fileName;
+    //link.innerHTML = link.download;
+    //var li = document.createElement('li');
+    //li.appendChild(link);
+    //li.appendChild(audio);
+    //recordingslist.appendChild(li);
 
     var fd = new FormData();
     fd.append('fname', fileName);
@@ -86,11 +95,11 @@ $( document ).ready(function() {
       contentType: false,
       success: function( data ) {
 
-        var recognized = document.createElement('b');
-        recognized.innerHTML = data;
-        li.appendChild(recognized)
+        //var recognized = document.createElement('b');
+        //recognized.innerHTML = data;
+        //li.appendChild(recognized)
 
-        console.log(data);
+        console.log("Text recognized: "+data);
         $('#response #source').attr('src', "/voice/generate?text="+data);
         $('#response').get(0).load();
         $('#response').get(0).play();
@@ -98,10 +107,12 @@ $( document ).ready(function() {
       }
     })
 
-    setTimeout(function(){
-      console.log("Will start auto record very soon")
-      startRecord();
-    }, 200);
+    if (started) {
+      setTimeout(function(){
+        console.log("Will start auto record very soon")
+        startRecord();
+      }, 200);
+    }
 
   };
 

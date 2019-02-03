@@ -17,3 +17,7 @@ apps_config_dir: "/home/gryphon"
 
 ssl_cert_path: "../ssl/server.crt"
 ssl_key_path: "../ssl/server.key"
+
+traefik_acme: true
+traefik_domain: "zahar.pw"
+traefik_acme_email: "mail@grigor.io"
